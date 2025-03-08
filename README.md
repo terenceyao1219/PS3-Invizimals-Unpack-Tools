@@ -39,8 +39,8 @@ Invizimals PAK Mesh Finder
 options:
   -h, --help            show this help message and exit
   -p PAK, --pak PAK     Give a *.pak file for creating AXE(*.plc) content
-  -m MESH, --mesh MESH  Set the HEX offset of mesh data session manually (default: auto)
-  -b BONE, --bone BONE  Set the HEX offset of bone data session manually (default: auto)
+  -m MESH, --mesh MESH  Set the HEX offset of mesh data section manually (default: auto)
+  -b BONE, --bone BONE  Set the HEX offset of bone data section manually (default: auto)
   -s SKIP, --skip SKIP  Skip the first N meshes (default: 0)
   -r, --reverse         Reverse the order of the mesh list (default: OFF)
   -a, --rename          Rename the mesh with bone indices (default: OFF)

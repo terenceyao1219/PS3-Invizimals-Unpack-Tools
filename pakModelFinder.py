@@ -997,8 +997,8 @@ async def main(args):
 def args_parser():
     parser = argparse.ArgumentParser(description='Invizimals PAK Mesh Finder')
     parser.add_argument('-p', '--pak', type=str, required=True, help='Give a *.pak file for creating AXE(*.plc) content')
-    parser.add_argument('-m', '--mesh', type=str, required=False, default='0', help='Set the HEX offset of mesh data session manually (default: auto)')
-    parser.add_argument('-b', '--bone', type=str, required=False, default='0', help='Set the HEX offset of bone data session manually (default: auto)')
+    parser.add_argument('-m', '--mesh', type=str, required=False, default='0', help='Set the HEX offset of mesh data section manually (default: auto)')
+    parser.add_argument('-b', '--bone', type=str, required=False, default='0', help='Set the HEX offset of bone data section manually (default: auto)')
     parser.add_argument('-s', '--skip', type=int, required=False, default=0, help='Skip the first N meshes (default: 0)')
     parser.add_argument('-r', '--reverse', action='store_true', default=False, help='Reverse the order of the mesh list (default: OFF)')
     parser.add_argument('-a', '--rename', action='store_true', default=False, help='Rename the mesh with bone indices (default: OFF)')
