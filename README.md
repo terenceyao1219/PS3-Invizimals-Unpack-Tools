@@ -4,7 +4,7 @@ This project is the result of research on extracting modeling resources from the
 Two Python3 script tools are provided here：
 
 * Texture Unpacker
-* PAK Mesh Finder (include bones & weights)
+* PAK Model Finder (include bones & weights)
 
 # Texture Unpacker
 This tool outputs files in DDS format. If the texture format is unknown, it will generate a raw file instead.
