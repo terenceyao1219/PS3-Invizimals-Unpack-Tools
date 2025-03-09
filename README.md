@@ -25,7 +25,7 @@ Usage example：
 python3 bliTexUnpacker.py -b Award_Shizoku_QTE.blh -i Award_Shizoku_QTE.bli -o D:\GameArchive\PS3\Invizimals
 ```
 
-# PAK Mesh Finder
+# PAK Model Finder
 This tool only outputs **Parameter List Container** in ***.plc*** file.
 
 Please use [AXE (Advanced Mesh Reaper - Xtreme Edition)](https://github.com/Bigchillghost/AXE) to open it and  export models from PAK file.
@@ -34,7 +34,7 @@ Please use [AXE (Advanced Mesh Reaper - Xtreme Edition)](https://github.com/Bigc
 ```
 usage: pakModelFinder.py [-h] -p PAK [-m MESH] [-b BONE] [-s SKIP] [-r] [-a] [-t]
 
-Invizimals PAK Mesh Finder
+Invizimals PAK Model Finder
 
 options:
   -h, --help            show this help message and exit

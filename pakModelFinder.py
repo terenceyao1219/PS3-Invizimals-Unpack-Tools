@@ -995,7 +995,7 @@ async def main(args):
     axe_packer(args.pak, meshs, bones, args.reverse, args.rename, args.skip, args.split)
 
 def args_parser():
-    parser = argparse.ArgumentParser(description='Invizimals PAK Mesh Finder')
+    parser = argparse.ArgumentParser(description='Invizimals PAK Model Finder')
     parser.add_argument('-p', '--pak', type=str, required=True, help='Give a *.pak file for creating AXE(*.plc) content')
     parser.add_argument('-m', '--mesh', type=str, required=False, default='0', help='Set the HEX offset of mesh data section manually (default: auto)')
     parser.add_argument('-b', '--bone', type=str, required=False, default='0', help='Set the HEX offset of bone data section manually (default: auto)')
